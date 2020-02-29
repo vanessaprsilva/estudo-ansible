@@ -1,0 +1,13 @@
+[local:vars]
+ansible_connection=local
+
+[local]
+127.0.1
+
+[matriz:vars]
+
+[matriz]
+10.1.2.90
+10.1.2.91
+10.1.2.92
+
