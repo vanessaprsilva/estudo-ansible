@@ -11,3 +11,13 @@ ansible_connection=local
 10.1.2.91
 10.1.2.92
 
+[aula:vars]
+ansible_connection=ssh
+ansible_user=root
+ansible_ssh_pass=root
+ansible_sudo_pass=root
+
+[aula]
+10.7.0.2
+10.7.0.3
+10.7.0.4
